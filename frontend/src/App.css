@@ -71,11 +71,29 @@ button:hover {
 button:disabled:hover {
   background-color: #999; /* nie pozwala na zmianę koloru podczas najechania myszką */
 }
-.submission-success {
+.glass {
   color: #4CAF50; /* kolor zielony */
   font-weight: bold;
   margin-top: 20px;
   border: 2px solid #4CAF50;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.plastic-metal {
+  color: #dc9100;
+  font-weight: bold;
+  margin-top: 20px;
+  border: 2px solid #dc9100;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.paper-cardboard {
+  color: #006fff;
+  font-weight: bold;
+  margin-top: 20px;
+  border: 2px solid #006fff;
   padding: 10px;
   border-radius: 5px;
 }
