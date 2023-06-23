@@ -2,29 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51a1acb1-4458-4416-a925-2cd21907a45c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/.idea/frontend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../model/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../model/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../model/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../model/.idea/model.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../model/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../model/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../model/garbarge-types-1687543439.model/fingerprint.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../model/garbarge-types-1687543439.model/keras_metadata.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../model/garbarge-types-1687543439.model/saved_model.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../model/garbarge-types-1687543439.model/variables/variables.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../model/garbarge-types-1687543439.model/variables/variables.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../model/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../model/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../model/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +38,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Uczelnia/2st/SystemyAutonomiczne lab/GarbageClassification/ml-project/api",
+    "last_opened_file_path": "C:/Uczelnia/2st/SystemyAutonomiczne lab/GarbageClassification/ml-project/model",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)"
   }
@@ -106,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1687544849447</updated>
       <workItem from="1687544859971" duration="5308000" />
-      <workItem from="1687551678888" duration="61000" />
+      <workItem from="1687551678888" duration="1667000" />
     </task>
     <servers />
   </component>
@@ -125,6 +110,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/api$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1687549884284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/api$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1687551752054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

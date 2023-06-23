@@ -55,7 +55,7 @@ def pickle_data(training_data, img_size):
 
 def prepare_data():
     training_data = []
-    data_directory = "C:/Uczelnia/2st/SystemyAutonomiczne lab/projekt/GarbageImages/GarbageTypes"
+    data_directory = ".../GarbageTypes"
     categories = ["cardboard", "glass", "metal", "paper", "plastic"]
     img_size = 224
     create_training_data(categories, data_directory, training_data, img_size)

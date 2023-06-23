@@ -9,6 +9,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
+
 def prepare(img):
     img_size = 224
     scaled_array = cv2.resize(img, (img_size, img_size))
@@ -23,7 +24,8 @@ def predict(model, img):
     return model.predict([prepare(img)])
 
 
-model = loadModel("C:/Uczelnia/2st/SystemyAutonomiczne lab/GarbageClassification/ml-project/model/garbarge-types-1687543439.model")
+model = loadModel(
+    ".../ml-project/model/garbarge-types-1687543439.model")
 
 
 @app.route('/garbage', methods=['POST'])
@@ -53,12 +55,6 @@ def sort_garbage():
         'predicted_label': categories[index]
     }
     return response, 200
-
-
-@app.route('/')
-def hello_wrld():
-    return 'hello world'
-
 
 if __name__ == '__main__':
     app.run()
